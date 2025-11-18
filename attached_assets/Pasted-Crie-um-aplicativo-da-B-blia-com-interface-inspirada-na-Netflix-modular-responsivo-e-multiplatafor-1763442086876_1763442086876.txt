@@ -1,0 +1,67 @@
+Crie um aplicativo da Bíblia com interface inspirada na Netflix, modular, responsivo e multiplataforma (Web, Android, iOS). O app deve ter navegação por abas e oferecer experiência rica e interativa para estudo bíblico e devocional.
+Layout e Interface:
+Estilo Netflix: carrosséis horizontais, capas visuais, navegação intuitiva
+Tema claro/escuro com alternância
+Ícones modernos e tipografia legível
+Suporte a mobile, tablet e desktop
+Login opcional (Google, Microsoft, Apple)
+Abas principais:
+📖 Bíblia:
+Texto bíblico completo (versões: NVI, ARA, KJV, etc.)
+Busca por livro, capítulo, versículo
+Destaques e marcações
+Notas pessoais
+Áudio Bíblia (narradores diferentes)
+🙏 Devocional:
+Devocionais diários com imagens e reflexões
+Notificações push para lembrar
+Histórico de devocionais lidos
+📅 Leitura do Dia:
+Plano de leitura anual (ex: Bíblia em 1 ano)
+Progresso visual (checklist)
+Sugestões de leitura temática (fé, esperança, amor)
+❓ Perguntas e Respostas:
+FAQ bíblico (ex: “Quem foi Moisés?”)
+Espaço para perguntas dos usuários
+Respostas curadas e moderadas
+🎥 Conteúdo multimídia:
+Vídeos explicativos (documentários, estudos)
+Podcasts cristãos integrados
+Música gospel (streaming integrado)
+⭐ Favoritos:
+Salvar versículos, devocionais e vídeos
+Playlist personalizada de leituras
+🧩 Recursos extras:
+Quiz bíblico interativo
+Flashcards de memorização de versículos
+Mapas bíblicos interativos (lugares históricos)
+Linha do tempo bíblica (eventos principais)
+Comparação de traduções lado a lado
+Modo offline (download de planos e textos)
+Tecnologias:
+Frontend: React Native (mobile) + React (web)
+Backend: Node.js + Express ou Python (FastAPI)
+Banco de dados: PostgreSQL ou MongoDB
+Autenticação: OAuth2 (Google, Microsoft, Apple)
+Notificações: Firebase Cloud Messaging
+Áudio/Vídeo: integração com players nativos
+Exportação: salvar notas e destaques em PDF/CSV
+Funcionalidades avançadas:
+Busca global (versículos, devocionais, vídeos)
+Sistema de recomendações (baseado em histórico de leitura)
+Perfil do usuário com estatísticas (dias ativos, versículos lidos)
+Gamificação: conquistas (ex: “30 dias de leitura sem falhar”)
+Comunidade: comentários em devocionais e fóruns moderados
+Sincronização em nuvem (multi-dispositivo)
+Documentação:
+README.md com instruções de instalação
+Guia de arquitetura modular
+API docs (Swagger/OpenAPI)
+Testes unitários e de integração
+Roadmap de futuras funcionalidades
+Critérios de sucesso:
+Interface fluida e moderna (estilo Netflix)
+Experiência completa de estudo bíblico
+Funcionalidades multimídia e interativas
+Suporte offline e sincronização
+Segurança e privacidade dos dados
